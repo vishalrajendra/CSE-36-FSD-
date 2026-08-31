@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 220" width="440" height="220">
+  <defs>
+    <linearGradient id="ringProg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff007f"/>
+      <stop offset="100%" stop-color="#7928ca"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="440" height="220" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+
+  <g transform="translate(70, 110)">
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#21262d" stroke-width="8"/>
+    <circle cx="0" cy="0" r="48" fill="none" stroke="url(#ringProg)" stroke-width="8" stroke-dasharray="301" stroke-dashoffset="60" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" values="301;60" dur="1.8s" fill="freeze"/>
+    </circle>
+    <text x="0" y="8" font-family="'Segoe UI', sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">A+</text>
+  </g>
+
+  <g transform="translate(160, 40)" font-family="'Segoe UI', sans-serif">
+    <text x="0" y="25" font-size="13" fill="#8b949e">Total Contributions</text>
+    <text x="240" y="25" font-size="14" font-weight="bold" fill="#58a6ff" text-anchor="end">1,420+</text>
+
+    <text x="0" y="65" font-size="13" fill="#8b949e">Current Streak</text>
+    <text x="240" y="65" font-size="14" font-weight="bold" fill="#ff007f" text-anchor="end">32 Days</text>
+
+    <text x="0" y="105" font-size="13" fill="#8b949e">Total Stars Earned</text>
+    <text x="240" y="105" font-size="14" font-weight="bold" fill="#e3b341" text-anchor="end">85 ★</text>
+
+    <text x="0" y="145" font-size="13" fill="#8b949e">Global Rank Percentile</text>
+    <text x="240" y="145" font-size="14" font-weight="bold" fill="#3fb950" text-anchor="end">Top 5%</text>
+  </g>
+</svg>
